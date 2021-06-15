@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MMTShop</name>
+    </assembly>
+    <members>
+        <member name="T:MMTShop.Controllers.FeaturedProductsController">
+            <summary>
+            API methods related to Products
+            </summary>
+        </member>
+        <member name="M:MMTShop.Controllers.FeaturedProductsController.Get">
+            <summary>
+            Returns a list of products that are currently featured.
+            </summary>
+            <returns>A list of Products</returns>
+        </member>
+        <member name="M:MMTShop.Controllers.ProductCategoriesController.Get">
+            <summary>
+            Returns a list of Product Categories
+            </summary>
+            <returns>A list of Product Categories</returns>
+        </member>
+        <member name="M:MMTShop.Controllers.ProductsByCategoryController.Get(System.Int32)">
+            <summary>
+            Returns a list of Products that are in the supplied Product Category.
+            </summary>
+            <param name="id"></param>
+            <returns>A list of Products</returns>
+        </member>
+    </members>
+</doc>
